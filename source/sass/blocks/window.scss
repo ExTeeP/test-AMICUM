@@ -1,0 +1,52 @@
+.window {
+  margin-bottom: 9px;
+
+  &__inner {
+    padding: 2px;
+  }
+
+  &__header {
+    padding: 0 10px 0 20px;
+    height: 31px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  &__title {
+    margin: 0 auto;
+    font-size: inherit;
+    font-weight: inherit;
+    color: var(--color-white);
+  }
+
+  &__content {
+    background-color: var(--color-white);
+  }
+
+  &__table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  &__table td,
+  &__table th {
+    padding: 9px 18px 8px;
+    border: 1px solid var(--color-grey-light);
+    border-top: none;
+  }
+
+  &__table th {
+    font-size: inherit;
+    font-weight: inherit;
+    color: var(--color-black-light);
+    background-color: var(--color-grey-white);
+    border-bottom: none;
+  }
+
+  &__table th:first-child,
+  &__table td:first-child {
+    text-align: center;
+  }
+}

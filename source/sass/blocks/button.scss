@@ -1,0 +1,37 @@
+.button {
+
+  &:focus,
+  &:hover {
+    opacity: 0.7;
+    transition: 0.2s ease;
+  }
+
+  &__close {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  &__maximize {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  &__back {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  &__divider {
+    width: 1px;
+    height: 15px;
+    margin: 0 10px;
+    display: block;
+    background-color: var(--color-white);
+  }
+}

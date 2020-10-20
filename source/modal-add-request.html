@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Модальное окно "Добавить пожелание"</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body class="page-body">
+  <a href="index.html">Вернуться назад</a>
+
+  <section class="modal">
+    <div class="modal__inner color-grey-blue">
+      <header class="modal__header">
+        <h2 class="modal__title">Добавить пожелание</h2>
+        <button type="button" class="button__close modal__close" aria-label="Закрыть">
+          <svg aria-hidden="true" width="16" height="14" viewBox="0 0 16 14" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <line y1="-1" x2="17.7577" y2="-1" transform="matrix(0.747995 0.663704 -0.747995 0.663704 1 2)"
+              stroke="white" stroke-width="2" />
+            <line y1="-1" x2="17.7551" y2="-1" transform="matrix(0.747268 -0.664523 0.747268 0.664523 2.32678 13.7987)"
+              stroke="white" stroke-width="2" />
+          </svg>
+        </button>
+      </header>
+
+      <form action="#" method="get">
+        <div class="modal__content">
+          <textarea placeholder="Комментарий"></textarea>
+        </div>
+
+        <footer class="modal__footer">
+          <ul class="modal__tabs-list">
+            <li class="modal__tab modal__tab--s color-grey-blue color-grey-blue__tab">
+              <button class="modal__link modal__link--save" href="#">Сохранить</button>
+            </li>
+          </ul>
+        </footer>
+      </form>
+    </div>
+  </section>
+
+  <footer class="page-footer">
+    <p class="page-footer__copy">&copy;&nbsp;Разработка и&nbsp;внедрение ООО &laquo;Профсоюз&raquo;&nbsp;| 2020</p>
+  </footer>
+</body>
+
+</html>

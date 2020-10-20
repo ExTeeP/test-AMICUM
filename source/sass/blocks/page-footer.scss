@@ -1,0 +1,33 @@
+.page-footer {
+  margin: auto 35px 20px;
+  padding: 0 30px;
+  position: relative;
+  font-size: 10px;
+  color: var(--color-white);
+  background-color: var(--color-black-lightes);
+
+  &::before,
+  &::after {
+    content: "";
+    display: block;
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    top: -4px;
+    border-radius: 50%;
+    background-color: var(--color-black-lightes);
+    border: 2px solid var(--color-grey-lightes);
+  }
+
+  &::before {
+    left: -10px;
+  }
+
+  &::after {
+    right: -10px;
+  }
+
+  &__copy {
+    margin: 0;
+  }
+}

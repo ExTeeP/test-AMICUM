@@ -1,0 +1,44 @@
+.notification {
+  width: 758px;
+  min-height: 53px;
+  padding: 10px 26px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  margin-left: -379px;
+  background-color: var(--color-grey-medium);
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+
+  &__title {
+    margin: 0;
+    margin-right: auto;
+    font-size: 20px;
+    line-height: 23px;
+    color: var(--color-white);
+    padding-left: 47px;
+  }
+
+  &__title--done::before {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 21px;
+    background-image: url(../img/icon-complite.svg);
+    background-repeat: no-repeat;
+  }
+
+  &__title.notification__title--done::before {
+    padding-right: 47px;
+  }
+
+  &__title--done.notification__title {
+    padding-left: 0;
+  }
+
+  &__close {
+    width: 17px;
+    height: 18px;
+  }
+}

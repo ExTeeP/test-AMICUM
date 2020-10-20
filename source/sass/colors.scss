@@ -1,0 +1,35 @@
+.color-grey-mint {
+  background-color: var(--color-grey-mint);
+
+  &__tab::before {
+    border-top-color: var(--color-grey-mint);
+  }
+
+  &__tab::after {
+    border-bottom-color: var(--color-grey-mint);
+  }
+}
+
+.color-grey-blue {
+  background-color: var(--color-grey-blue);
+
+  &__tab::before {
+    border-top-color: var(--color-grey-blue);
+  }
+
+  &__tab::after {
+    border-bottom-color: var(--color-grey-blue);
+  }
+}
+
+.color-grey-azure {
+  background-color: var(--color-grey-azure);
+
+  &__tab::before {
+    border-top-color: var(--color-grey-azure);
+  }
+
+  &__tab::after {
+    border-bottom-color: var(--color-grey-azure);
+  }
+}
